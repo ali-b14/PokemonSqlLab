@@ -1,0 +1,13 @@
+What are all the types of pokemon that a pokemon can have?; select  name Types from types;
+What is the name of the pokemon with id 45?; select name from pokemons where id = 45;
+How many pokemon are there?; select count(name) NumberOfPokemon from pokemons;
+How many types are there?; select count(id) AmountOfTypes from types;
+How many pokemon have a secondary type?; select count(secondary_type) AmountOfPokemonWithSecondaryTypes from pokemons;
+
+What is each pokemon's primary type?
+What is Rufflet's secondary type?
+What are the names of the pokemon that belong to the trainer with trainerID 303?
+How many pokemon have a secondary type Poison
+What are all the primary types and how many pokemon have that type?
+How many pokemon at level 100 does each trainer with at least one level 100 pokemone have? (Hint: your query should not display a trainer
+How many pokemon only belong to one trainer and no other?
